@@ -29,6 +29,9 @@ a:hover, a:visited, a{
 	margin: 0;
 	padding: 0;
 }
+.boston-based, h2 {
+	color: #fff;
+}
 .top-header img.logo{
 	float: left;
 	margin-top: 8px;
@@ -80,7 +83,7 @@ ul.nav{
 }
 /*banner area*/
 .banner{
-	background: url(../img/banner.jpg);
+	background: url(../img/lights.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -132,7 +135,7 @@ ul.nav{
 }
 .about h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
 	margin-top: 90px;
@@ -398,15 +401,15 @@ input.message{
 color:#EFEFEF;
 }
 .form-input:-moz-placeholder { /* Firefox 18- */
-   color:#EFEFEF; 
+   color:#EFEFEF;
 }
 
 .form-input::-moz-placeholder {  /* Firefox 19+ */
-   color:#EFEFEF; 
+   color:#EFEFEF;
 }
 
-.form-input:-ms-input-placeholder {  
-   color:#EFEFEF;  
+.form-input:-ms-input-placeholder {
+   color:#EFEFEF;
 }
 /*footer area*/
 
@@ -433,14 +436,14 @@ color:#EFEFEF;
 /******************************
 responsive area
 ********************************/
-/* lg */ 
+/* lg */
 @media (min-width: 1200px) {
-	
+
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+
 
 }
 
@@ -473,6 +476,7 @@ responsive area
 	  font-size: 60px;
 	  letter-spacing: 3px;
 	}
+
 	.about-inside{
 		padding: 10px;
 	}
@@ -509,21 +513,3 @@ responsive area
 		padding: 0px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
