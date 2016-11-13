@@ -32,6 +32,10 @@ a:hover, a:visited, a{
 .boston-based, h2 {
 	color: #fff;
 }
+
+.header-break {
+	line-height: 250px;
+}
 .top-header img.logo{
 	float: left;
 	margin-top: 8px;
