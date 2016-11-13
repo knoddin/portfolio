@@ -330,6 +330,9 @@ ul.nav{
 	font-weight: 800;
 	margin-top: 55px;
 }
+.links {
+	color: #fff;
+}
 .portfolio-details p{
 	font-size: 13px;
 	color: #fff;
