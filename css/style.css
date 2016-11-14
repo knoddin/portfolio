@@ -34,7 +34,7 @@ a:hover, a:visited, a{
 }
 
 .header-break {
-	line-height: 250px;
+	line-height: 275px;
 }
 .top-header img.logo{
 	float: left;
@@ -373,6 +373,7 @@ ul.nav{
 .contact-form input:focus{
 	outline: none;
 }
+
 input.name{
 	margin-top: 55px;
 	width: 640px;
