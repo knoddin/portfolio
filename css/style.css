@@ -158,6 +158,10 @@ ul.nav{
 	font-size: 23px;
 }
 
+.about-me {
+	font-size: 18px;
+}
+
 .single-about{
 	margin-bottom: 90px;
 }
@@ -315,6 +319,7 @@ ul.nav{
 	height: 80%;
 	background: rgba(2, 145, 140, 0.77);
 	display: none;
+
 }
 .single-portfolio:hover .portfolio-details{
 	display: block;
@@ -329,7 +334,7 @@ ul.nav{
 	font-size: 16px;
 	color: #fff;
 	font-weight: 800;
-	margin-top: 55px;
+	margin-top: 20px;
 }
 .links {
 	color: #fff;
