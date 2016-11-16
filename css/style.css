@@ -323,8 +323,9 @@ ul.nav{
 .portfolio-details{
 	position: absolute;
 	z-index: 99;
-	top: 25px;
-  	left: 32px;
+	margin: auto;
+	top: 35px;
+  	left: 50px;
 	width: 80%;
 	height: 80%;
 	background: rgba(2, 145, 140, 0.77);
@@ -334,6 +335,7 @@ ul.nav{
 .single-portfolio:hover .portfolio-details{
 	display: block;
 }
+
 .portfolio-item img{
 	margin: 0;
 	padding: 0;
@@ -341,16 +343,17 @@ ul.nav{
 	height: 100%;
 }
 .portfolio-details h4{
-	font-size: 16px;
+	font-size: 22px;
 	color: #fff;
 	font-weight: 800;
 	margin-top: 20px;
 }
 .links {
+	font-size: 20px;
 	color: #fff;
 }
 .portfolio-details p{
-	font-size: 13px;
+	font-size: 16px;
 	color: #fff;
 	padding: 5px 20px;
 }
