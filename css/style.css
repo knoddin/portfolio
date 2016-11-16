@@ -20,7 +20,7 @@ a:hover, a:visited, a{
 }
 /*header area*/
 .top-header{
-	background: #02918C;
+	background: #6C7B8B;
 	position: fixed;
 	width: 100%;
 	z-index: 333;
@@ -139,7 +139,7 @@ ul.nav{
 }
 .about h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #6C7B8B;
 	font-weight: 800;
 	text-transform: uppercase;
 	margin-top: 90px;
@@ -185,7 +185,7 @@ ul.nav{
 	color: #7e8287;
 }
 .about-inside i.fa{
-	color: #02918c;
+	color: #6C7B8B;
 	font-size: 30px;
 }
 .single-about:hover .about-inside i.fa{
@@ -200,6 +200,7 @@ ul.nav{
 /*service area*/
 .service{
 	margin: 0;
+	margin-bottom: 100px;
 	padding: 0;
 	/*background: url(../img/typing-bg.jpg);*/
 	background-repeat: no-repeat;
@@ -217,7 +218,7 @@ ul.nav{
 }
 .service h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #6C7B8B;
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-top: 75px;
@@ -270,18 +271,24 @@ ul.nav{
 /*portfolio area*/
 .portfolio h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #fff;
 	margin-top: 60px;
 	font-weight: 800;
 	margin-bottom: 35px;
 }
-.portfolio-row{
-	background-color: #D3D3D3;
+
+.portfolio-container {
+	margin-left: 12%;
+	margin-bottom: 20px;
+}
+.portfolio-row {
+	background-color: #6C7B8B;
 	margin: 0;
 	padding: 0;
+	padding-bottom: 70px;
 }
 .portfolio-heading img{
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 .portfolio-heading p{
 	font-size: 16px;
@@ -289,8 +296,9 @@ ul.nav{
 	margin-bottom: 80px;
 }
 .single-portfolio{
-	float: left;
-	margin: 4%;
+	/*float: left;*/
+	margin: 1%;
+	margin-top: 0;
 	padding: 0;
 	position: relative;
 }
@@ -350,7 +358,7 @@ ul.nav{
 .contact{}
 .contact h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #6C7B8B;
 	margin-top: 100px;
 	font-weight: 800;
 	margin-bottom: 35px;
