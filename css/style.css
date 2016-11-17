@@ -278,6 +278,7 @@ ul.nav{
 }
 
 .portfolio-container {
+	text-align: center;
 	margin-left: 12%;
 	margin-bottom: 20px;
 }
@@ -297,11 +298,13 @@ ul.nav{
 }
 .single-portfolio{
 	/*float: left;*/
+	/*border-width: thick;*/
 	margin: 1%;
-	margin-top: 0;
+	/*margin-top: 0;*/
 	padding: 0;
 	position: relative;
 }
+
 .single-portfolio i.fa {
   position: absolute;
   z-index: 222;
@@ -318,7 +321,6 @@ ul.nav{
 	display: block;
 }
 .portfolio-item{
-
 	position: relative;
 	z-index: 10;
 }
@@ -330,7 +332,7 @@ ul.nav{
   	left: 50px;
 	width: 80%;
 	height: 80%;
-	background: rgba(2, 145, 140, 0.77);
+	background: rgba(2, 145, 140, 0.90);
 	display: none;
 
 }
@@ -366,7 +368,7 @@ ul.nav{
 	}
 
 .portfolio-details p{
-	font-size: 16px;
+	font-size: 17px;
 	color: #fff;
 	padding: 5px 20px;
 }
